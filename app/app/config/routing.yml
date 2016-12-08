@@ -1,3 +1,7 @@
+open_labs_siete_ocho:
+    resource: "@OpenLabsSieteOchoBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

@@ -1,0 +1,4 @@
+services:
+#    open_labs_siete_ocho.example:
+#        class: OpenLabs\SieteOchoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
