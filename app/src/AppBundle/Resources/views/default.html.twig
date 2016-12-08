@@ -6,13 +6,13 @@
 	<meta name="description" content="Creative One Page Parallax Template">
 	<meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" /> 
 	<meta name="author" content=""> 
-	<title>HIMU - OnePage HTML Parallax template</title> 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/prettyPhoto.css" rel="stylesheet"> 
-	<link href="css/font-awesome.min.css" rel="stylesheet"> 
-	<link href="css/animate.css" rel="stylesheet"> 
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet"> 
+	<title> | :: Plataforma de Mujeres Productoras ::</title> 
+	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/prettyPhoto.css') }}" rel="stylesheet"> 
+	<link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet"> 
+	<link href="{{ asset('css/animate.css') }}" rel="stylesheet"> 
+	<link href="{{ asset('css/main.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/responsive.css') }}" rel="stylesheet"> 
 	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> 
 	<script src="js/respond.min.js"></script> <![endif]--> 
 	<link rel="shortcut icon" href="images/ico/favicon.png"> 
@@ -20,6 +20,7 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png"> 
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png"> 
 	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	{% block js_head %}{% endblock %}
 </head><!--/head-->
 <body>
 	<div class="preloader">
@@ -809,12 +810,13 @@
 		</div> 
 	</footer> <!--/#footer--> 
 
-	<script type="text/javascript" src="js/jquery.js"></script> 
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/smoothscroll.js"></script> 
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-	<script type="text/javascript" src="js/jquery.parallax.js"></script> 
-	<script type="text/javascript" src="js/main.js"></script> 
+	<script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script> 
+	<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('js/smoothscroll.js') }}"></script> 
+	<script type="text/javascript" src="{{ asset('js/jquery.isotope.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('js/jquery.prettyPhoto.js') }}"></script> 
+	<script type="text/javascript" src="{{ asset('js/jquery.parallax.js') }}"></script> 
+	<script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+	{% block javascripts %}{% endblock %}
 </body>
 </html>
