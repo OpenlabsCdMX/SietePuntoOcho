@@ -1,3 +1,17 @@
 open_labs_siete_ocho_homepage:
     path:     /
     defaults: { _controller: OpenLabsSieteOchoBundle:Default:index }
+
+open_labs_siete_ocho_movil_puntos:
+    path:     /mobile/getPuntos
+    defaults: { _controller: OpenLabsSieteOchoBundle:Mobile:puntos }
+
+open_labs_siete_ocho_movil_tipos:
+    path:     /mobile/getTipos
+    defaults: { _controller: OpenLabsSieteOchoBundle:Mobile:tipos }
+
+open_labs_siete_ocho_movil_reportes:
+    path:     /mobile/getReportes
+    defaults: { _controller: OpenLabsSieteOchoBundle:Mobile:reportes }
+
+
