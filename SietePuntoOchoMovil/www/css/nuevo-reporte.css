@@ -1,0 +1,31 @@
+.steps,
+.step {
+    height: 100%;
+    width: 100%;
+}
+.step-title {
+    background-color: #fecb00;
+    position: relative;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 3010;
+    padding:2px 10px;
+}
+.steps-botones {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 3010;
+}
+.steps-botones button {
+    display: none;
+    background-color: #487070;
+    color:#fff;
+}
+.steps-botones button:focus,
+.steps-botones button:hover {
+    background-color: #396161;
+    color:#fff;
+}
