@@ -22,7 +22,7 @@ class MobileController extends Controller
 
     public function puntosAction()
     {
-        $json = '[{"id":1","nombre":"Portoviejo","lat":-1.027839,"lng":-80.377919,"type":"localidad"},
+        $json = '[{"id":1,"nombre":"Portoviejo","lat":-1.027839,"lng":-80.377919,"type":"localidad"},
 {"id":2,"nombre":"Bolivar","lat":-1.480777,"lng":-79.139124,"type":"localidad"},
 {"id":3,"nombre":"Chone","lat":-0.704811,"lng":-80.100134,"type":"localidad"},
 {"id":4,"nombre":"El Carmen","lat":-0.267662,"lng":-79.467287,"type":"localidad"},
