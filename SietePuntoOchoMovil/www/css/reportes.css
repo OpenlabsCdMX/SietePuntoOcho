@@ -1,0 +1,13 @@
+#loading {    
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    top:0;
+    background-image: url('../images/radar.gif');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color: rgba(0,0,0,0.3);
+    background-size: 100px;
+    z-index:3005;
+}
