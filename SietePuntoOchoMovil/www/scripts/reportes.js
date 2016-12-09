@@ -1,6 +1,6 @@
 ﻿$(document).ready(function(){
     // Busca últimos reportes
-    $.ajax({
+    /*$.ajax({
         url: '',
         success: function(response) {
             var arrayOfLatLngs = [];
@@ -17,7 +17,7 @@
             });
             // Agrega marcadores
             for (var i = 0; i < response.rows.length; i++) {
-                markers.push(L.marker([response.rows[i].latitud, response.rows[i].longitud], { /*icon: greenIcon*/ })
+                markers.push(L.marker([response.rows[i].latitud, response.rows[i].longitud], { icon: greenIcon })
                     .addTo(map)
                     .bindPopup('<strong>' + response.rows[i].sub_variable + '</strong><br>' + response.rows[i].observaciones));
                 arrayOfLatLngs.push([response.rows[i].latitud, response.rows[i].longitud]);
@@ -25,9 +25,6 @@
             // Centra mapa en marcadores
             var bounds = new L.LatLngBounds(arrayOfLatLngs);
             map.fitBounds(bounds);
-            var polygon_bounds = arrayOfLatLngs.splice(2);
-            var polygon = L.polygon(polygon_bounds, { color: 'purple', opacity: .6 })/*.addTo(map)*/;
-            console.log(polygon_bounds);
             // Esconde loading
             hideLoading();
         },
@@ -35,8 +32,8 @@
             hideLoading();
             alert('Hubo un error al obtener la información.' + error);
         }
-
-    });
+    });*/
+    hideLoading();
 });
 
 function showLoading() {
