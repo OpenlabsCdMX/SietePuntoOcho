@@ -37,13 +37,13 @@ class MobileController extends Controller
 {id:"13",nombre:"Santa Ana",lat:"-0.781893",lng:"-80.234621", type: "localidad"},
 {id:"14",nombre:"Sucre",lat:"-0.958437",lng:"-80.743026", type: "localidad"},
 {id:"15",nombre:"Tosagua",lat:"0.072827",lng:"-80.045815", type: "localidad"},
-{id:"16",nombre:"24 de mayo",lat:"-1.396392",lng:"-80.206944", type: "localidad"},
-{id:"17",nombre:"Pedernales",lat:"19.09843",lng:"-99.98347", type: "localidad"},
-{id:"18",nombre:"Olmedo",lat:"19.09843",lng:"-99.98347", type: "localidad"},
-{id:"19",nombre:"Puerto López",lat:"19.09843",lng:"-99.98347", type: "localidad"},
-{id:"20",nombre:"Jama",lat:"19.09843",lng:"-99.98347", type: "localidad"},
-{id:"21",nombre:"Jaramijó",lat:"19.09843",lng:"-99.98347", type: "localidad"},
-{id:"22",nombre:"San Vicente",lat:"19.09843",lng:"-99.98347", type: "localidad"}]';
+{id:"16",nombre:"24 de mayo",lat:"-1.396392",lng:"-80.743026", type: "localidad"},
+{id:"17",nombre:"Pedernales",lat:"0.072827",lng:" -80.045815", type: "localidad"},
+{id:"18",nombre:"Olmedo",lat:"-1.396392",lng:"-80.206944", type: "localidad"},
+{id:"19",nombre:"Puerto López",lat:"-1.556948",lng:"-80.805893", type: "localidad"},
+{id:"20",nombre:"Jama",lat:"-0.205178",lng:"-80.262423", type: "localidad"},
+{id:"21",nombre:"Jaramijó",lat:"-0.976556",lng:"-80.577338", type: "localidad"},
+{id:"22",nombre:"San Vicente",lat:"-0.597671",lng:"-80.406189", type: "localidad"}]';
         $response = new Response($json);
         $response->headers->set('Content-Type', 'application/json');
         return $response;
